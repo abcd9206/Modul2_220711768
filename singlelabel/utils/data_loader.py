@@ -7,5 +7,5 @@ def load_data():
     """
     Load and cache the dataset
     """
-    df = pd.read_csv('D:\\Kuliah\\Semester 6\\Pengolahan Bahasa Alami\\Modul2_220711768\\singlelabel\\data\\train_preprocess.csv')
+    df = pd.read_csv('data\train_preprocess.csv')
     return df
